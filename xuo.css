@@ -111,7 +111,6 @@ p, h1, h2, h3, h4, h5, h6, button {
 .nav-link:hover {
   filter: grayscale(0%) opacity(1);
   background: var(--bg-secondary);
-  color: var(--text-secondary);
 }
 
 .link-text {
@@ -119,8 +118,7 @@ p, h1, h2, h3, h4, h5, h6, button {
   position: absolute;
   left: -999px;
   transition: var(--transition-speed)
-  
-}
+  }
 
 .nav-link svg {
   width: 2rem;
@@ -133,13 +131,18 @@ p, h1, h2, h3, h4, h5, h6, button {
 }
 
 .fa-secondary {
-  color: #b785d8;
+  color: #8babe6;
 }
 
 .fa-primary,
 .fa-secondary {
-  transition: var(--transition-speed);
+  transition: 200ms ease;
 }
+
+.nav-link:hover .fa-primary{
+  color:#608cdf;
+}
+
 
 .logo {
   font-weight: bold;
@@ -357,7 +360,7 @@ p, h1, h2, h3, h4, h5, h6, button {
   right:-80rem;
   position:relative;
   transform: translatey(0);
-  opacity:.65;
+  opacity:.7;
 
   background:rgb(0, 0, 0);
   word-break:break-word;
