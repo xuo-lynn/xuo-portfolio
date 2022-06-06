@@ -133,7 +133,7 @@ p, h1, h2, h3, h4, h5, h6, button {
 }
 
 .fa-secondary {
-  color: #6d94dd;
+  color: #b785d8;
 }
 
 .fa-primary,
@@ -206,10 +206,16 @@ p, h1, h2, h3, h4, h5, h6, button {
   right:-1.5em;
 }
 
+#about h1{
+  font-size:2rem;
+  font-weight:bold;
+}
+
 #about p{
   font-size: 1.5rem;
   margin-bottom: 1rem;
   font-weight:400;
+  width:40vw;
 }
 
 #about .bear{
@@ -227,13 +233,11 @@ p, h1, h2, h3, h4, h5, h6, button {
 
 #about .links img{
   width:60px;
-  padding:1.5em;
+  padding:1em;
   transition: opacity 0.2s linear;
  -webkit-transition: opacity 0.2s linear;
  -moz-transition: opacity 0.2s linear;
 }
-
-
 
 #about .links img:hover{
   opacity:.4;
@@ -282,6 +286,7 @@ p, h1, h2, h3, h4, h5, h6, button {
     position:relative;
     top:-37rem;
     right:-88em;
+    opacity:.9;
     transform: translatey(0);
     background:rgb(235, 183, 230);
     word-break:break-word;
@@ -296,6 +301,7 @@ p, h1, h2, h3, h4, h5, h6, button {
 
 #experience .card h2,p{
   position:relative;
+  color:white;
 }
 
 #experience .card h2{
@@ -369,7 +375,7 @@ p, h1, h2, h3, h4, h5, h6, button {
   top:-35rem;
   right:-80rem;
   transform: translatey(0);
-  opacity:.65;
+  opacity:.7;
  
   background:rgb(0, 0, 0);
   word-break:break-word;
@@ -433,8 +439,7 @@ p, h1, h2, h3, h4, h5, h6, button {
     position:relative;
     bottom:-5em;
     transform: translatey(0);
-    opacity:.6;
-
+    opacity:.7;
     background:black;
     word-break:break-word;
     
